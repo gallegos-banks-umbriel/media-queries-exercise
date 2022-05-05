@@ -42,6 +42,7 @@ li {
     background-color: gray;
     padding: 1em;
     margin-bottom: .5em;
+    text-decoration: underline;
 }
 
 footer {
@@ -61,8 +62,13 @@ footer {
     li, a {
         display: inline-block;
         flex-direction: row;
-        padding: 0;
+        padding: 2px;
         justify-content: flex-end;
+        text-decoration: underline;
+    }
+    li {
+        background-color: #ffffff;
+
     }
     nav {
         width: 50%;
